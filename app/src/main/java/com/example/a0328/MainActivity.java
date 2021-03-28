@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
     void show(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("안녕이").setMessage("!!!");
+        builder.setTitle("안녕이").setMessage("계세요!!!");
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
 
